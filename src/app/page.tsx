@@ -11,6 +11,8 @@ import {
   SiYoutube,
 } from "react-icons/si";
 
+import { data } from "@/data/config";
+
 export default function Home() {
   return (
     <main className="bg-black flex min-h-screen flex-col items-center justify-between p-24">
@@ -37,7 +39,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <div className="text-white text-xl mt-12">
         A list of quick links that I use regularly, maybe you use some of these
         as well, if you do...enjoy!
@@ -45,144 +46,28 @@ export default function Home() {
           <Tip />
         </p>
       </div>
-
       <div className="text-white gap-4 mt-12 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://youtube.com/"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiYoutube className="text-3xl pt-0.5" />
-            </span>
-            YouTube{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            An American online video sharing and social media platform owned by
-            the tech giant, Google.
-          </p>
-        </a>
-        <a
-          href="https://github.com/"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiGithub className="text-3xl pt-0.5" />
-            </span>
-            GitHub{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            The developer platform that allows developers to create, store,
-            manage and share their code.
-          </p>
-        </a>
-        <a
-          href="https://www.reddit.com/r/unixporn/"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiReddit className="text-3xl pt-0.5" />
-            </span>
-            Unixporn{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Submit screenshots of *NIX desktops, themes, or anything else that
-            will make ricers happy.
-          </p>
-        </a>
-        <a
-          href="https://nextjs.org"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiNextdotjs className="text-3xl pt-0.5" />
-            </span>
-            Next.js{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            An open-source web dev framework providing server-side rendering and
-            static website generation.
-          </p>
-        </a>
-        <a
-          href="https://react.dev"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiReact className="text-3xl pt-0.5" />
-            </span>
-            React.js{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            A free and open-source front-end JavaScript library for building
-            user interfaces based on components
-          </p>
-        </a>
-        <a
-          href="https://bun.sh"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiBun className="text-3xl pt-0.5" />
-            </span>
-            Bun{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            A JavaScript runtime, package manager, test runner and bundler built
-            from scratch using the Zig.
-          </p>
-        </a>
-        <a
-          href="https://nodejs.org"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiNodedotjs className="text-3xl pt-0.5" />
-            </span>
-            Node.js{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            A cross-platform, open-source JavaScript runtime env that can run on
-            Windows, Linux, Unix, macOS, and more.
-          </p>
-        </a>
-        <a
-          href="https://pnpm.io"
-          className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              <SiPnpm className="text-3xl pt-0.5" />
-            </span>
-            PNPM{" "}
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            PnPm is a fast and modern JS tool for installing and managing
-            JavaScript packages.
-          </p>
-        </a>
+        {data.map(({ id, icon: IconComponent, site, name, desc }) => (
+          <a
+            key={id}
+            href={site}
+            className="group rounded-lg border border-zinc-800/30 px-5 py-4 transition-colors hover:border-zinc-700/30 hover:bg-zinc-800/30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className="mb-3 text-2xl inline-flex gap-2 font-semibold">
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                {typeof IconComponent === "string" ? (
+                  <span className="text-3xl pt-0.5">{IconComponent}</span>
+                ) : (
+                  <IconComponent className="text-3xl pt-0.5" />
+                )}
+              </span>
+              {name}
+            </h2>
+            <p className="m-0 max-w-[30ch] text-sm opacity-50">{desc}</p>
+          </a>
+        ))}
       </div>
     </main>
   );
