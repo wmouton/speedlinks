@@ -27,7 +27,7 @@ const Tip = () => {
                 set your browser&apos;s default home page to be{" "}
                 <Link
                   href="https://speedlinks.vercel.app"
-                  // target="_blank"
+                  target="_blank"
                   className="underline offset-2"
                 >
                   https://speedlinks.vercel.app
