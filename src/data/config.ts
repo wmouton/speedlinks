@@ -2,12 +2,16 @@ import { IconType } from "react-icons";
 import {
   SiBun,
   SiGithub,
+  SiGo,
+  SiNeovim,
   SiNextdotjs,
   SiNodedotjs,
   SiPnpm,
   SiReact,
   SiReddit,
+  SiTailwindcss,
   SiYoutube,
+  SiZig,
 } from "react-icons/si";
 
 interface DataProps {
@@ -74,5 +78,33 @@ export const data: DataProps[] = [
     name: "PNPM",
     desc: "PnPm is a fast and modern JS tool for installing and managing JavaScript packages.",
     site: "https://pnpm.io/",
+  },
+  {
+    id: 9,
+    icon: SiTailwindcss,
+    name: "TailwindCSS",
+    desc: "A utility-first CSS framework packed with classes like flex that can be composed to build any design.",
+    site: "https://tailwindcss.com/",
+  },
+  {
+    id: 10,
+    icon: SiGo,
+    name: "Go(Golang)",
+    desc: "An open-source programming language with built-in concurrency and a robust standard library.",
+    site: "https://go.dev/",
+  },
+  {
+    id: 11,
+    icon: SiZig,
+    name: "Zig",
+    desc: "A general-purpose programming language and toolchain for maintaining robust and reusable software.",
+    site: "https://ziglang.org/",
+  },
+  {
+    id: 12,
+    icon: SiNeovim,
+    name: "NeoVIM",
+    desc: "Neovim is a modern and powerful text editor that is fully compatible with Vim and supports Lua plugins.",
+    site: "https://neovim.io/",
   },
 ];
