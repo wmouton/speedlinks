@@ -7,14 +7,18 @@ import {
   SiGo,
   SiNeovim,
   SiNextdotjs,
+  SiNixos,
   SiNodedotjs,
   SiNotion,
   SiPnpm,
   SiReact,
   SiReddit,
+  SiStackoverflow,
+  SiStarship,
   SiTailwindcss,
   SiYoutube,
   SiZig,
+  SiZsh,
 } from "react-icons/si";
 
 interface DataProps {
@@ -137,5 +141,33 @@ export const data: DataProps[] = [
     name: "freeCodeCamp",
     desc: "freeCodeCamp is a non-profit organization that consists of an interactive learning web platform and more.",
     site: "https://www.freecodecamp.org/",
+  },
+  {
+    id: 17,
+    icon: SiStarship,
+    name: "Starship",
+    desc: "Starship is the minimal, blazing fast, and extremely customizable prompt for any shell!",
+    site: "https://starship.rs/",
+  },
+  {
+    id: 18,
+    icon: SiZsh,
+    name: "ZSH",
+    desc: "The Z shell is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting.",
+    site: "https://zsh.org/",
+  },
+  {
+    id: 19,
+    icon: SiStackoverflow,
+    name: "StackOverflow",
+    desc: "Stack Overflow is a question-and-answer website for computer programmers.",
+    site: "https://stackoverflow.com/",
+  },
+  {
+    id: 20,
+    icon: SiNixos,
+    name: "NixOS",
+    desc: "NixOS is a free and open source Linux distribution based on the Nix package manager.",
+    site: "https://nixos.org/",
   },
 ];
