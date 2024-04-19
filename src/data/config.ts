@@ -200,6 +200,6 @@ export const data: DataProps[] = [
     icon: FaCode,
     name: "ShadCN UI",
     desc: "Beautifully designed components that you can copy and paste into your apps.",
-    site: "https://vercel.com/",
+    site: "https://ui.shadcn.com/",
   },
 ];
