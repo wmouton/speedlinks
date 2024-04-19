@@ -1,10 +1,13 @@
 import { IconType } from "react-icons";
 import { BiSmile } from "react-icons/bi";
+import { FaCode } from "react-icons/fa";
 import {
+  SiAstro,
   SiBun,
   SiFreecodecamp,
   SiGithub,
   SiGo,
+  SiHashnode,
   SiNeovim,
   SiNextdotjs,
   SiNixos,
@@ -16,6 +19,7 @@ import {
   SiStackoverflow,
   SiStarship,
   SiTailwindcss,
+  SiVercel,
   SiYoutube,
   SiZig,
   SiZsh,
@@ -169,5 +173,33 @@ export const data: DataProps[] = [
     name: "NixOS",
     desc: "NixOS is a free and open source Linux distribution based on the Nix package manager.",
     site: "https://nixos.org/",
+  },
+  {
+    id: 21,
+    icon: SiAstro,
+    name: "Astro",
+    desc: "Powering the world's fastest websites, client-side web apps, dynamic API endpoints, and everything in-between.",
+    site: "https://astro.build/",
+  },
+  {
+    id: 22,
+    icon: SiHashnode,
+    name: "Hashnode",
+    desc: "Create and grow your developer blog, newsletter, or team engineering blog effortlessly with Hashnode.",
+    site: "https://hashnode.com/",
+  },
+  {
+    id: 23,
+    icon: SiVercel,
+    name: "Vercel",
+    desc: "Vercel is the Frontend Cloud. Build, scale, and secure a faster, personalized web. Fast and easy deployment.",
+    site: "https://vercel.com/",
+  },
+  {
+    id: 24,
+    icon: FaCode,
+    name: "ShadCN UI",
+    desc: "Beautifully designed components that you can copy and paste into your apps.",
+    site: "https://vercel.com/",
   },
 ];
