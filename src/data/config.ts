@@ -2,10 +2,13 @@ import { IconType } from "react-icons";
 import { BiSmile } from "react-icons/bi";
 import { FaCode } from "react-icons/fa";
 import {
+  SiArchlinux,
   SiAstro,
   SiBun,
+  SiDebian,
   SiFreecodecamp,
   SiGithub,
+  SiGitlab,
   SiGo,
   SiHashnode,
   SiNeovim,
@@ -19,6 +22,7 @@ import {
   SiStackoverflow,
   SiStarship,
   SiTailwindcss,
+  SiTmux,
   SiVercel,
   SiYoutube,
   SiZig,
@@ -201,5 +205,33 @@ export const data: DataProps[] = [
     name: "ShadCN UI",
     desc: "Beautifully designed components that you can copy and paste into your apps.",
     site: "https://ui.shadcn.com/",
+  },
+  {
+    id: 25,
+    icon: SiTmux,
+    name: "TMUX",
+    desc: "A terminal multiplexer that allows multiple terminal sessions to be accessed simultaneously in one window.",
+    site: "https://github.com/tmux/tmux/wiki/",
+  },
+  {
+    id: 25,
+    icon: SiGitlab,
+    name: "GitLab",
+    desc: "A sort of a GitHub alternative, a DevOps software package that can develop, secure, and operate software.",
+    site: "https://about.gitlab.com/",
+  },
+  {
+    id: 26,
+    icon: SiArchlinux,
+    name: "Arch Linux",
+    desc: "Independently developed x86-64 general-purpose Linux distro that provides the latest stable software. ",
+    site: "https://archlinux.org/",
+  },
+  {
+    id: 27,
+    icon: SiDebian,
+    name: "Debian Linux",
+    desc: "A Linux distribution composed of free and open-source software and optionally non-free firmware.",
+    site: "https://www.debian.org/",
   },
 ];
