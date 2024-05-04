@@ -1,11 +1,12 @@
 import { IconType } from "react-icons";
-import { BiSmile } from "react-icons/bi";
-import { FaCode } from "react-icons/fa";
+import { BiEraser, BiSmile } from "react-icons/bi";
+import { FaCode, FaHatWizard } from "react-icons/fa";
 import {
   SiArchlinux,
   SiAstro,
   SiBun,
   SiCanva,
+  SiConvertio,
   SiDebian,
   SiFontawesome,
   SiFreecodecamp,
@@ -265,5 +266,33 @@ export const data: DataProps[] = [
     name: "Nerd Fonts",
     desc: "This is a modern iconic font aggregator, collection, and patcher where you can find a plethora of fonts.",
     site: "https://www.nerdfonts.com/",
+  },
+  {
+    id: 32,
+    icon: SiConvertio,
+    name: "Convert IO",
+    desc: "A platform where you can convert your files to any format. Convert files like png, jpg, jpeg, svg, etc.",
+    site: "https://convertio.co/",
+  },
+  {
+    id: 33,
+    icon: BiEraser,
+    name: "Remove BG",
+    desc: "A wesite where you can remove image backgrounds 100% automatically in seconds with one click.",
+    site: "https://remove.bg/",
+  },
+  {
+    id: 34,
+    icon: FaHatWizard,
+    name: "Leonardo AI",
+    desc: "Create production-quality visual assets for your projects with unprecedented quality, speed, and style-consistency.",
+    site: "https://leonardo.ai/",
+  },
+  {
+    id: 35,
+    icon: SiNixos,
+    name: "NixOS PKGS",
+    desc: "Use the Nix package manager to search a large repository of over 100 000 packages for your NixOS system.",
+    site: "https://search.nixos.org/packages",
   },
 ];
